@@ -43,6 +43,7 @@ public class CircularLinkedList {
 				head=newnode;
 				tail.next= newnode;
 			}else {
+				
 				node current=head;
 				int i;
 				for ( i = 1; current.next!=head && i <=  pos-2 ; i++) {
